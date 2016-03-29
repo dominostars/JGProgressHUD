@@ -219,6 +219,13 @@
  */
 @property (nonatomic, assign) NSTimeInterval minimumDisplayTime;
 
+/**
+ Determines whether voiceover announcements should be made upon displaying the HUD.
+
+ @b Default: YES
+ */
+@property (nonatomic, assign) BOOL voiceOverEnabled;
+
 
 
 
